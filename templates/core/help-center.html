@@ -1,0 +1,233 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="banner-section help-center">
+    <div class="overlay">
+        <div class="banner-content">
+            <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-8 col-md-7">
+                        <div class="main-content text-center">
+                            <div class="top-area section-text">
+                                <h3 class="title">How can we help you today?</h3>
+                            </div>
+                            <form action="#">
+                                <div class="form-group mb-40 d-flex align-items-center">
+                                    <img src="{% static 'assets2/images/icon/search-icon.png' %}" alt="icon">
+                                    <input type="text" placeholder="Search Knowledge base">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="help-center-section">
+    <div class="overlay pb-120">
+        <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-12">
+                    <div class="nav-tabs-area">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="cmn-btn active" id="personal-tab" data-bs-toggle="tab" data-bs-target="#personal" type="button" role="tab" aria-controls="personal" aria-selected="true">personal</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="cmn-btn" id="business-tab" data-bs-toggle="tab" data-bs-target="#business" type="button" role="tab" aria-controls="business" aria-selected="false">business</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content mt-40">
+                        <div class="tab-pane fade active show" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                            <div class="row justify-content-sm-start justify-content-center">
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-1.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>About Paylio</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-2.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Wallet Creation</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-3.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Adding Money</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-4.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Paylio Cards</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-5.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Sending Money</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-6.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Account Mangament</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-7.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Adding Recipient</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-1.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>About Paylio</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/business-icon-1.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Accepting Payments</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/business-icon-2.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Adding Money</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/business-icon-3.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Transactions</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/business-icon-4.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Deposits</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-2.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Wallet</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-1.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Refund</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/personal-icon-4.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Paylio Cards</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/business-icon-5.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Designated Bank Acc</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/business-icon-6.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Payment Gateway</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/business-icon-7.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>3D Secure Auth.</h5></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-9">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="{% static 'assets2/images/icon/business-icon-8.png' %}" alt="icon">
+                                        </div>
+                                        <a href="#/"><h5>Fees and Allowance</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="call-action" style="margin-bottom: 100px;">
+    <div class="overlay pt-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 text-center">
+                    <div class="section-text">
+                        <h5 class="sub-title">Let us help you!</h5>
+                        <h2 class="title">Didn’t find what you were looking for?</h2>
+                    </div>
+                    <div class="btn-area">
+                        <a href="#/" class="cmn-btn">Submit a request</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}

@@ -1,0 +1,226 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- <section class="banner-section about-us">
+    <div class="overlay">
+        <div class="banner-content">
+            <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-10">
+                        <div class="main-content text-center">
+                            <div class="top-area section-text dark-sec">
+                                <h5 class="sub-title">Built for entrepreneurs, by entrepreneurs</h5>
+                                <h1 class="title">The platform built to help businesses achieve their ambitions faster</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-img-bottom pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="magnific-area d-flex align-items-center justify-content-around">
+                        <div class="bg-area">
+                            <img class="bg-item" src="{% static 'assets2/images/about-popup.png' %}" alt="banner" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#popupImageModal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stars-info pt-120">
+                <div class="row justify-content-center justify-content-around">
+                    <div class="col-sm-3">
+                        <div class="single-box">
+                            <div class="icon-box">
+                                <img src="{% static 'assets2/images/icon/stats-info-icon-1.png' %}" alt="icon">
+                            </div>
+                            <h5>2000+ employees</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-box">
+                            <div class="icon-box">
+                                <img src="{% static 'assets2/images/icon/stats-info-icon-2.png' %}" alt="icon">
+                            </div>
+                            <h5>3M+ users around the world</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-box">
+                            <div class="icon-box">
+                                <img src="{% static 'assets2/images/icon/stats-info-icon-3.png' %}" alt="icon">
+                            </div>
+                            <h5>€303.6 BN billion in processed volume in 2022</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section class="our-values pt-120">
+    <div class="overlay pt-120 pb-120">
+        <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-6">
+                    <div class="section-header text-center">
+                        <h1 class="sub-title">Our values</h1>
+                        <h2 class="title">The values that drive everything we do</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row cus-mar align-items-center">
+                <div class="col-lg-6">
+                    <div class="single-box d-flex">
+                        <div class="img-box">
+                            <img src="{% static 'assets2/images/icon/values-icon-1.png' %}" alt="icon">
+                        </div>
+                        <div class="text-box">
+                            <h4>Innovation</h4>
+                            <p>Through our commitment to innovation, we strive to revolutionize the way our clients engage with financial services, creating a seamless and personalized experience that sets us apart from the competition.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-box d-flex">
+                        <div class="img-box">
+                            <img src="{% static 'assets2/images/icon/values-icon-2.png' %}" alt="icon">
+                        </div>
+                        <div class="text-box">
+                            <h4>Accountability</h4>
+                            <p>We firmly believe that being accountable is essential in building trust, maintaining strong relationships with our clients, and ensuring the integrity of our operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-box d-flex">
+                        <div class="img-box">
+                            <img src="{% static 'assets2/images/icon/values-icon-3.png' %}" alt="icon">
+                        </div>
+                        <div class="text-box">
+                            <h4>Commitment</h4>
+                            <p>We are dedicated to providing our clients with exceptional financial services and building long-term relationships based on trust, integrity, and unwavering dedication.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-box d-flex">
+                        <div class="img-box">
+                            <img src="{% static 'assets2/images/icon/values-icon-4.png' %}" alt="icon">
+                        </div>
+                        <div class="text-box">
+                            <h4>Team Work</h4>
+                            <p>We firmly believe that effective collaboration and synergy among our employees are key drivers of success, enabling us to deliver exceptional financial solutions and exceed our clients' expectations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="location">
+    <div class="overlay pb-120">
+        <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-8">
+                    <div class="section-header text-center">
+                        <h1 class="title pt-120">Our offices</h1>
+                        <h4 class="title">Come and visit our offices around the world</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center cus-mar">
+                <div class="col-xl-4 col-md-6">
+                    <div class="single-box">
+                        <div class="head-area d-flex align-items-center">
+                            <div class="img-box">
+                                <img src="{% static 'assets2/images/icon/location-icon-1.png' %}" alt="location">
+                            </div>
+                            <h4>Chennai</h4>
+                        </div>
+                        <div class="email-phone">
+                            <div class="img-box">
+                                <img src="{% static 'assets2/images/icon/email-icon-1.png' %}" alt="icon">
+                            </div>
+                            <p><a href="mailto:info@payliofinance.com" class="__cf_email__">info@payliofinance.com</a></p>
+                        </div>
+                        <div class="email-phone">
+                            <div class="img-box">
+                                <img src="{% static 'assets2/images/icon/phone-icon-1.png' %}" alt="icon">
+                            </div>
+                            <p>+91 9758643210</p>
+                        </div>
+                        <div class="bottom-area">
+                            <a href="#/">View Location<img src="{% static 'assets2/images/icon/arrow-right-4.png' %}" alt="icon"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="single-box">
+                        <div class="head-area d-flex align-items-center">
+                            <div class="img-box">
+                                <img src="{% static 'assets2/images/icon/location-icon-2.png' %}" alt="location">
+                            </div>
+                            <h4>Mumbai</h4>
+                        </div>
+                        <div class="email-phone">
+                            <div class="img-box">
+                                <img src="{% static 'assets2/images/icon/email-icon-2.png' %}" alt="icon">
+                            </div>
+                            <p><a href="mailto:info@payliofinance.com" class="__cf_email__">info@payliofinance.com</a></p>
+                        </div>
+                        <div class="email-phone">
+                            <div class="img-box">
+                                <img src="{% static 'assets2/images/icon/phone-icon-2.png' %}" alt="icon">
+                            </div>
+                            <p>+91 7598462130</p>
+                        </div>
+                        <div class="bottom-area">
+                            <a href="#/">View Location
+                                <img src="{% static 'assets2/images/icon/arrow-right-4.png' %}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="single-box">
+                        <div class="head-area d-flex align-items-center">
+                            <div class="img-box">
+                                <img src="{% static 'assets2/images/icon/location-icon-3.png' %}" alt="location">
+                            </div>
+                            <h4>Kolkata</h4>
+                        </div>
+                        <div class="email-phone">
+                            <div class="img-box">
+                                <img src="{% static 'assets2/images/icon/email-icon-3.png' %}" alt="icon">
+                            </div>
+                            <p><a href="mailto:info@payliofinance.com" class="__cf_email__">info@payliofinance.com</a></p>
+                        </div>
+                        <div class="email-phone">
+                            <div class="img-box">
+                                <img src="{% static "assets2/images/icon/phone-icon-3.png" %}" alt="icon">
+                            </div>
+                            <p>+91 5136429780</p>
+                        </div>
+                        <div class="bottom-area">
+                            <a href="#/">View Location
+                                <img src="{% static "assets2/images/icon/arrow-right-4.png" %}" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %} 
+ 
+    
+
+    
+

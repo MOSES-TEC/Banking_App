@@ -1,0 +1,79 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+
+{% block content %}
+    
+<section class="banner-section corporate-card subscriptions">
+    <div class="overlay">
+        <div class="banner-content">
+            <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="main-content">
+                            <div class="top-area section-text">
+                                <h5 class="sub-title">Scheduled Payments</h5>
+                                <h1 class="title">Manage Subscriptions Smarter</h1>
+                                <p class="xlr">One place for all your recurring payments</p>
+                            </div>
+                            <div class="bottom-area d-xxl-flex">
+                                <a href="{% url 'userauths:sign-up' %}" class="cmn-btn">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="sec-image exb-mar">
+                            <img src="{% static 'assets2/images/subscriptions-features-2.png' %}" alt="sub" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="earn-cashback features">
+    <div class="overlay pt-120 pb-120">
+        <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row pb-120 align-items-center justify-content-between">
+                <div class="col-md-6 order-md-0 order-1">
+                    <div class="sec-image"><img src="{% static 'assets2/images/subscriptions-features.png' %}" alt="sub" class="w-100">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="section-text">
+                        <h5 class="sub-title">Block unwanted subscriptions easily</h5>
+                        <h2 class="title">Organise subscriptions in one place</h2>
+                        <p>Add your scheduled payments to NimoraPay to track your spending and see where you could save</p>
+                    </div>
+                    <div class="bottom-area d-xxl-flex">
+                        <a href="{% url 'userauths:sign-up' %}" class="cmn-btn">Try it out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <div class="section-text">
+                        <h5 class="sub-title">Subscribe to a better financial life</h5>
+                        <h2 class="title">Get reminders for upcoming payments</h2>
+                        <p>Say goodbye to surprise charges with notifications if there's not enough money to cover scheduled payments</p>
+                    </div>
+                    <div class="bottom-area d-xxl-flex">
+                        <a href="{% url 'userauths:sign-up' %}" class="cmn-btn">Try it out</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="sec-image exb-mar">
+                        <img src="{% static 'assets2/images/subscriptions-features-2.png' %}" alt="sub" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %} 
+
+
+        
